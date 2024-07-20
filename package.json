@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"node mockserver.js\" \"next dev\"",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
     "deploy": "npm run build && gh-pages -d out"
