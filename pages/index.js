@@ -20,7 +20,7 @@ const ButtonContainer = styled.div`
 `;
 
 const Button = styled.button`
-  width: 250px;
+  width: 250px ;
   height: 60px;
   color: white;
   border: none;
