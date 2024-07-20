@@ -1,5 +1,5 @@
 const isGitHubPages = process.env.DEPLOY_TARGET === 'github-pages';
-const repoName = 'belediyeeee'; // Replace with your repository name
+const repoName = 'Demo'; // Replace with your repository name
 
 export default {
   output: 'export', // This line is crucial for static export
