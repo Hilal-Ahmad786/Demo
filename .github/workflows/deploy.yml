@@ -26,4 +26,18 @@ jobs:
           NEXT_PUBLIC_OPENAI_API_KEY: ${{ secrets.NEXT_PUBLIC_OPENAI_API_KEY }}
         run: |
           export DEPLOY_TARGET=github-pages
-          npm
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        env:
+          GH_TOKEN: ${{ secrets.MY_NEW_KEY }}
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git remote set-url origin https://x-access-token:${{ secrets.MY_NEW_KEY }}@github.com/Hilal-Ahmad786/Demo.git
+          git fetch origin
+          git checkout -b gh-pages || git checkout gh-pages
+          cp -r ./out/* ./
+          git add .
+          git commit -m "Deploy to GitHub Pages" || echo "No changes to commit"
+          git push origin gh-pages --force
