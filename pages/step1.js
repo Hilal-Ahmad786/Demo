@@ -15,7 +15,7 @@ export default function Step1() {
   };
 
   return (
-    <Container className="my-4" >
+    <Container className="my-4"  >
       <StepLayout>
       <h1 className='m-3'>E-Belediye Hizmetleri</h1>
       <div className={styles.buttonContainer}>
