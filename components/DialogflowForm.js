@@ -34,7 +34,7 @@ const DialogflowForm = () => {
         <div>
             <form onSubmit={handleSubmit}>
                 <input
-                    type="text"
+                    type="text "
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     placeholder="Ask something..."
