@@ -37,7 +37,7 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.MY_NEW_KEY }}@github.com/Hilal-Ahmad786/Demo.git
           git fetch origin
           git checkout -b gh-pages || git checkout gh-pages
-          cp -r ./out/* ./
+          cp -r out/* .
           git add .
           git commit -m "Deploy to GitHub Pages" || echo "No changes to commit"
           git push origin gh-pages --force
