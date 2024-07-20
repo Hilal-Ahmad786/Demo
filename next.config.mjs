@@ -5,7 +5,7 @@ export default {
   output: 'export', // This line is crucial for static export
   basePath: isGitHubPages ? `/${repoName}` : '',
   assetPrefix: isGitHubPages ? `/${repoName}/` : '',
-  images: {
+  images: { 
     unoptimized: true, // Necessary for GitHub Pages
   },
   publicRuntimeConfig: {
