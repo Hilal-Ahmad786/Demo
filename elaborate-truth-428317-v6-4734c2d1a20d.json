@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "elaborate-truth-428317-v6",
+  "private_key_id": "4734c2d1a20df84b29388ea07636d36640c8f1c5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDXzFHMf8FbapUO\nAWTa2O26xptzM/TTJtF8+RdCLfit3QCOy59nFMRY7BaX+AZAqMjq1+iWQ6jB8u0r\nn4PaS1hyArIzU7K83oHKGlfvjGRUA2rDoi/cugFqQJHphtKZ0TJbGSYm6iKiF7pQ\nWUtv0zf3S9p+QPXpcrd6xDOAL7BMRM73wySt7+mz3joT0Cb2DUNw6jfY7OZbOlR9\nwOUwGMcB67xvh9C0yh2htdt9ueT3o4+8BPmCq6zZDAVYlfPvLLMnQL7x37xzGu2s\ncMkYf61d/XwlRyMT7z2mNftQXCD+o0WN+ueI0vzJZtAr8G7dW1XfvpUhM17uIr02\ngjdZC93xAgMBAAECggEANK8tST/ndOoQedrdRJCxeWgDi5yjqOlRO7GUfBO9IrVR\n7YrI3+GyDgOVgISNAjwy0SLlJcpe6Prl7ECFcEX00eDWoLFOcc3g4faMgW9FDz3G\nUvzFsp22uroI5XqE8AiiwprhNZ7z1Z71XahvQl3OzBE4xpoVb2kSYmaELEd4QyYW\nb/OGiSR6HAaMvym2YXWFWihSo/m2dq/lX/2QOEfRNeOduadak2AeL+txKBzXLWnU\nUFqyB3pDTq7auFxWZHPv4/J8Nc9WG9yYfdDoR2UrMDautG2RL9/+Cu4n1x6AIJNE\nLLwRGFOEvBcdTB4L46nFedHvoL33VefRf/Bn6zYKAQKBgQD4dmbZ2Ds9UPRqrj5I\noWBax3WmnGCK7MFqjVQndEfx1/GEcPbdDAiIuFMdEIo7jmujdGlC/Khr7CBQVJ5O\n4ELWspC6a2RvzfD5/np1+ZBf9c0mmMAeyTRR2x7vpDTS503LN0dJLptlAd/IPAw5\nzsi9wvszrJSN5/lSJT7op+iHVwKBgQDeWD25eufSRC7KL3NQ1wuFFUS/HqeVBm8/\ns3MjRavRGsvTLJCgzK5bT6Gz36Z1Bd/U0h6/MVYGahH05moYwfLAbPg1CFhK7hSi\nXGdhEWhZWlW6PDP7oPu47jkMnLEsUF4bG05G/HKFGQB7FdqbbfhWAcO91CWZaP3H\nnYU6y0hf9wKBgQDx3LA6F1dzVL7Yqk1O/miBdfB9A3SnR9jwFCt7TKJMNd2RAzYL\n747PKD8f593oI7d8IfHll3WLuQurpvOD7KKjxKdGEQxwGZUehi5HcWytPOU7US6T\nyWD43ci7lqklNKxxyZnHD2uNY8mnbWypSTX4IznND458pPf6ku8uI2UjeQKBgQC8\nybPvL1pzAI2yAsQpGc6gO0TZ+k9Ui9geAGJ8yoVu0Q/LyIUs414QDfdA4V9W8Zvx\n+k89C8j9PUbt6E6hotxZYq0FaoZ9aNWAXnEwzDUL2VX9AW0p9LCHf05VVR5igALH\nhVHbmDIsrOPpns61NpSrgmgPYHhkX+9LdIZRO5XCVQKBgQCC8/XmFuQcwrtMKu/m\nRWXo4B2SDw0keNwwH+Lykq3TCpBehQ+0hiaO4mpESqZNTH0z/MyjKLy+lSyYg/0K\nQnWRHf+gmNTsZoHiRU1NQBOyp9zbnibfEHiOZiG4qsb+Uc8HWDvOpQlOSSeV9jwK\nJa610vwPrik0ywuX7i36cgAZRw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-service-account@elaborate-truth-428317-v6.iam.gserviceaccount.com",
+  "client_id": "106211040831742528253",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-service-account%40elaborate-truth-428317-v6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

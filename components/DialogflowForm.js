@@ -17,7 +17,7 @@ const DialogflowForm = () => {
 
     if (res.ok) {
       const data = await res.json();
-      setResponse(data.fulfillmentText);
+      setResponse(data.response); // Use the correct key 'response' as returned by the API
     } else {
       console.error('Error during fetch:', res.status);
     }
