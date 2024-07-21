@@ -5,7 +5,7 @@ export default {
   basePath: isGitHubPages ? `/${repoName}` : '',
   assetPrefix: isGitHubPages ? `/${repoName}/` : '',
   images: {
-    unoptimized: true, // Necessary for GitHub Pages
+    unoptimized: true, //  Necessary for GitHub Pages
   },
   publicRuntimeConfig: {
     basePath: isGitHubPages ? `/${repoName}` : '',
